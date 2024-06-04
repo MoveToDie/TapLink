@@ -38,7 +38,7 @@ body {
     margin-top: -79px;
     text-align: center;
     background: #ffffff;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding-bottom: 21px;
   }
@@ -61,4 +61,48 @@ body {
    line-height: 17px;
    color: #6a6a6a;
    margin-top: 4px;
+  }
+  .card {
+    background: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 20px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    margin: auto;
+    gap: 10px;
+  }
+  .button {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    flex-shrink: 1;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .button.steam {
+    background: #1B2838;
+  }
+  .button.insta {
+    background: #CA7FF6
+  }
+  .button.yt {
+    background: #FD0505;
+  }
+  .button.hh {
+    background-color: #d6001c;
   }
